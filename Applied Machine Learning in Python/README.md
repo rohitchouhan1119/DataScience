@@ -12,8 +12,6 @@
 9. Decision Tree 
 
 
-
-
 ### Useful Function of Scikit Learning for Binary-Class Evaluation
 
 - **train_test_split** - Used to split the data in train and test
