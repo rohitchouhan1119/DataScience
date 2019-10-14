@@ -1,5 +1,19 @@
 # Applied Machine Learning in Python
 
+### Supervised Learning Part-1 Topics
+1. K-Nearest Neighbor: Classification and Regression
+2. Linear Regression: Least Square
+3. Linear Regression: Ridge, Lasso and Polynomial Regression
+4. Logistic Regression
+5. Linear Classifier: Support Vector Machine
+6. Multi Class Classification
+7. Kernalized Support Vector Machine
+8. Cross Validation
+9. Decision Tree 
+
+
+
+
 ### Useful Function of Scikit Learning for Binary-Class Evaluation
 
 - **train_test_split** - Used to split the data in train and test
