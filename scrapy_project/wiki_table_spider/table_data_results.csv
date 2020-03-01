@@ -1,0 +1,583 @@
+city,census,rank,state,estimate,change
+New York,"8,175,133",1,New York,"8,398,748",+2.74%
+Los Angeles,"3,792,621",2,California,"3,990,456",+5.22%
+Chicago,"2,695,598",3,Illinois,"2,705,994",+0.39%
+Houston,"2,100,263",4,Texas,"2,325,502",+10.72%
+Phoenix,"1,445,632",5,Arizona,"1,660,272",+14.85%
+Philadelphia,"1,526,006",6,Pennsylvania,"1,584,138",+3.81%
+San Antonio,"1,327,407",7,"Texas
+","1,532,233",+15.43%
+San Diego,"1,307,402",8,"California
+","1,425,976",+9.07%
+Dallas,"1,197,816",9,"Texas
+","1,345,047",+12.29%
+San Jose,"945,942",10,"California
+","1,030,119",+8.90%
+Austin,"790,390",11,"Texas
+","964,254",+22.00%
+Jacksonville,"821,784",12,Florida,"903,889",+9.99%
+Fort Worth,"741,206",13,"Texas
+","895,008",+20.75%
+Columbus,"787,033",14,Ohio,"892,533",+13.40%
+San Francisco,"805,235",15,"California
+","883,305",+9.70%
+Charlotte,"731,424",16,North Carolina,"872,498",+19.29%
+Indianapolis,"820,445",17,Indiana,"867,125",+5.69%
+Seattle,"608,660",18,Washington,"744,955",+22.39%
+Denver,"600,158",19,Colorado,"716,492",+19.38%
+Washington,"601,723",20,District of Columbia,"702,455",+16.74%
+Boston,"617,594",21,Massachusetts,"694,583",+12.47%
+El Paso,"649,121",22,"Texas
+","682,669",+5.17%
+Detroit,"713,777",23,Michigan,"672,662",−5.76%
+Nashville,"601,222",24,Tennessee,"669,053",+11.28%
+Portland,"583,776",25,Oregon,"653,115",+11.88%
+Memphis,"646,889",26,"Tennessee
+","650,618",+0.58%
+Oklahoma City,"579,999",27,Oklahoma,"649,021",+11.90%
+Las Vegas,"583,756",28,Nevada,"644,644",+10.43%
+Louisville,"597,337",29,Kentucky,"620,118",+3.81%
+Baltimore,"620,961",30,Maryland,"602,495",−2.97%
+Milwaukee,"594,833",31,Wisconsin,"592,025",−0.47%
+Albuquerque,"545,852",32,New Mexico,"560,218",+2.63%
+Tucson,"520,116",33,"Arizona
+","545,975",+4.97%
+Fresno,"494,665",34,"California
+","530,093",+7.16%
+Mesa,"439,041",35,"Arizona
+","508,958",+15.92%
+Sacramento,"466,488",36,"California
+","508,529",+9.01%
+Atlanta,"420,003",37,Georgia,"498,044",+18.58%
+Kansas City,"459,787",38,Missouri,"491,918",+6.99%
+Colorado Springs,"416,427",39,"Colorado
+","472,688",+13.51%
+Miami,"399,457",40,"Florida
+","470,914",+17.89%
+Raleigh,"403,892",41,"North Carolina
+","469,298",+16.19%
+Omaha,"408,958",42,Nebraska,"468,262",+14.50%
+Long Beach,"462,257",43,"California
+","467,354",+1.10%
+Virginia Beach,"437,994",44,Virginia,"450,189",+2.78%
+Oakland,"390,724",45,"California
+","429,082",+9.82%
+Minneapolis,"382,578",46,Minnesota,"425,403",+11.19%
+Tulsa,"391,906",47,"Oklahoma
+","400,669",+2.24%
+Arlington,"365,438",48,"Texas
+","398,112",+8.94%
+Tampa,"335,709",49,"Florida
+","392,890",+17.03%
+New Orleans,"343,829",50,Louisiana,"391,006",+13.72%
+Wichita,"382,368",51,Kansas,"389,255",+1.80%
+Cleveland,"396,815",52,"Ohio
+","383,793",−3.28%
+Bakersfield,"347,483",53,"California
+","383,579",+10.39%
+Aurora,"325,078",54,"Colorado
+","374,114",+15.08%
+Anaheim,"336,265",55,"California
+","352,005",+4.68%
+Honolulu,"337,256",56,Hawaii,"347,397",+3.01%
+Santa Ana,"324,528",57,"California
+","332,725",+2.53%
+Riverside,"303,871",58,"California
+","330,063",+8.62%
+Corpus Christi,"305,215",59,"Texas
+","326,554",+6.99%
+Lexington,"295,803",60,"Kentucky
+","323,780",+9.46%
+Stockton,"291,707",61,"California
+","311,178",+6.67%
+Henderson,"257,729",62,"Nevada
+","310,390",+20.43%
+Saint Paul,"285,068",63,"Minnesota
+","307,695",+7.94%
+St. Louis,"319,294",64,"Missouri
+","302,838",−5.15%
+Cincinnati,"296,943",65,"Ohio
+","302,605",+1.91%
+Pittsburgh,"305,704",66,"Pennsylvania
+","301,048",−1.52%
+Greensboro,"269,666",67,"North Carolina
+","294,722",+9.29%
+Anchorage,"291,826",68,Alaska,"291,538",−0.10%
+Plano,"259,841",69,"Texas
+","288,061",+10.86%
+Lincoln,"258,379",70,"Nebraska
+","287,401",+11.23%
+Orlando,"238,300",71,"Florida
+","285,713",+19.90%
+Irvine,"212,375",72,"California
+","282,572",+33.05%
+Newark,"277,140",73,New Jersey,"282,090",+1.79%
+Toledo,"287,208",74,"Ohio
+","274,975",−4.26%
+Durham,"228,330",75,"North Carolina
+","274,291",+20.13%
+Chula Vista,"243,916",76,"California
+","271,651",+11.37%
+Fort Wayne,"253,691",77,"Indiana
+","267,633",+5.50%
+Jersey City,"247,597",78,"New Jersey
+","265,549",+7.25%
+St. Petersburg,"244,769",79,"Florida
+","265,098",+8.31%
+Laredo,"236,091",80,"Texas
+","261,639",+10.82%
+Madison,"233,209",81,"Wisconsin
+","258,054",+10.65%
+Chandler,"236,123",82,"Arizona
+","257,165",+8.91%
+Buffalo,"261,310",83,"New York
+","256,304",−1.92%
+Lubbock,"229,573",84,"Texas
+","255,885",+11.46%
+Scottsdale,"217,385",85,"Arizona
+","255,310",+17.45%
+Reno,"225,221",86,"Nevada
+","250,998",+11.45%
+Glendale,"226,721",87,"Arizona
+","250,702",+10.58%
+Gilbert,"208,453",88,"Arizona
+","248,279",+19.11%
+Winston–Salem,"229,617",89,"North Carolina
+","246,328",+7.28%
+North Las Vegas,"216,961",90,"Nevada
+","245,949",+13.36%
+Norfolk,"242,803",91,"Virginia
+","244,076",+0.52%
+Chesapeake,"222,209",92,"Virginia
+","242,634",+9.19%
+Garland,"226,876",93,"Texas
+","242,507",+6.89%
+Irving,"216,290",94,"Texas
+","242,242",+12.00%
+Hialeah,"224,669",95,"Florida
+","238,942",+6.35%
+Fremont,"214,089",96,"California
+","237,807",+11.08%
+Boise,"205,671",97,Idaho,"228,790",+11.24%
+Richmond,"204,214",98,"Virginia
+","228,783",+12.03%
+Baton Rouge,"229,493",99,"Louisiana
+","221,599",−3.44%
+Spokane,"208,916",100,"Washington
+","219,190",+4.92%
+Des Moines,"203,433",101,Iowa,"216,853",+6.60%
+Tacoma,"198,397",102,"Washington
+","216,279",+9.01%
+San Bernardino,"209,924",103,"California
+","215,941",+2.87%
+Modesto,"201,165",104,"California
+","215,030",+6.89%
+Fontana,"196,069",105,"California
+","213,739",+9.01%
+Santa Clarita,"176,320",106,"California
+","210,089",+19.15%
+Birmingham,"212,237",107,Alabama,"209,880",−1.11%
+Oxnard,"197,899",108,"California
+","209,877",+6.05%
+Fayetteville,"200,564",109,"North Carolina
+","209,468",+4.44%
+Moreno Valley,"193,365",110,"California
+","209,050",+8.11%
+Rochester,"210,565",111,"New York
+","206,284",−2.03%
+Glendale,"191,719",112,"California
+","201,361",+5.03%
+Huntington Beach,"189,992",113,"California
+","200,641",+5.60%
+Salt Lake City,"186,440",114,Utah,"200,591",+7.59%
+Grand Rapids,"188,040",115,"Michigan
+","200,217",+6.48%
+Amarillo,"190,695",116,"Texas
+","199,924",+4.84%
+Yonkers,"195,976",117,"New York
+","199,663",+1.88%
+Aurora,"197,899",118,"Illinois
+","199,602",+0.86%
+Montgomery,"205,764",119,"Alabama
+","198,218",−3.67%
+Akron,"199,110",120,"Ohio
+","198,006",−0.55%
+Little Rock,"193,524",121,Arkansas,"197,881",+2.25%
+Huntsville,"180,105",122,"Alabama
+","197,318",+9.56%
+Augusta,"195,844",123,"Georgia
+","196,939",+0.56%
+Port St. Lucie,"164,603",124,"Florida
+","195,248",+18.62%
+Grand Prairie,"175,396",125,"Texas
+","194,614",+10.96%
+Columbus,"189,885",126,"Georgia
+","194,160",+2.25%
+Tallahassee,"181,376",127,"Florida
+","193,551",+6.71%
+Overland Park,"173,372",128,"Kansas
+","192,536",+11.05%
+Tempe,"161,719",129,"Arizona
+","192,364",+18.95%
+McKinney,"131,117",130,"Texas
+","191,645",+46.16%
+Mobile,"195,111",131,"Alabama
+","189,572",−2.84%
+Cape Coral,"154,305",132,"Florida
+","189,343",+22.71%
+Shreveport,"199,311",133,"Louisiana
+","188,987",−5.18%
+Frisco,"116,989",134,"Texas
+","188,170",+60.84%
+Knoxville,"178,874",135,"Tennessee
+","187,500",+4.82%
+Worcester,"181,045",136,"Massachusetts
+","185,877",+2.67%
+Brownsville,"175,023",137,"Texas
+","183,392",+4.78%
+Vancouver,"161,791",138,"Washington
+","183,012",+13.12%
+Fort Lauderdale,"165,521",139,"Florida
+","182,595",+10.32%
+Sioux Falls,"153,888",140,South Dakota,"181,883",+18.19%
+Ontario,"163,924",141,"California
+","181,107",+10.48%
+Chattanooga,"167,674",142,"Tennessee
+","180,557",+7.68%
+Providence,"178,042",143,Rhode Island,"179,335",+0.73%
+Newport News,"180,719",144,"Virginia
+","178,626",−1.16%
+Rancho Cucamonga,"165,269",145,"California
+","177,751",+7.55%
+Santa Rosa,"167,815",146,"California
+","177,586",+5.82%
+Oceanside,"167,086",147,"California
+","176,080",+5.38%
+Salem,"154,637",148,"Oregon
+","173,442",+12.16%
+Elk Grove,"153,015",149,"California
+","172,886",+12.99%
+Garden Grove,"170,883",150,"California
+","172,646",+1.03%
+Pembroke Pines,"154,019",151,"Florida
+","172,374",+11.92%
+Peoria,"154,065",152,"Arizona
+","172,259",+11.81%
+Eugene,"156,185",153,"Oregon
+","171,245",+9.64%
+Corona,"152,374",154,"California
+","168,819",+10.79%
+Cary,"135,234",155,"North Carolina
+","168,160",+24.35%
+Springfield,"159,498",156,"Missouri
+","168,122",+5.41%
+Fort Collins,"143,986",157,"Colorado
+","167,830",+16.56%
+Jackson,"173,514",158,Mississippi,"164,422",−5.24%
+Alexandria,"139,966",159,"Virginia
+","160,530",+14.69%
+Hayward,"144,186",160,"California
+","159,620",+10.70%
+Lancaster,"156,633",161,"California
+","159,053",+1.55%
+Lakewood,"142,980",162,"Colorado
+","156,798",+9.66%
+Clarksville,"132,929",163,"Tennessee
+","156,794",+17.95%
+Palmdale,"152,750",164,"California
+","156,667",+2.56%
+Salinas,"150,441",165,"California
+","156,259",+3.87%
+Springfield,"153,060",166,"Massachusetts
+","155,032",+1.29%
+Hollywood,"140,768",167,"Florida
+","154,823",+9.98%
+Pasadena,"149,043",168,"Texas
+","153,219",+2.80%
+Sunnyvale,"140,081",169,"California
+","153,185",+9.35%
+Macon,"91,351",170,"Georgia
+","153,095",+67.59%
+Kansas City,"145,786",171,"Kansas
+","152,958",+4.92%
+Pomona,"149,058",172,"California
+","152,361",+2.22%
+Escondido,"143,911",173,"California
+","152,213",+5.77%
+Killeen,"127,921",174,"Texas
+","149,103",+16.56%
+Naperville,"141,853",175,"Illinois
+","148,304",+4.55%
+Joliet,"147,433",176,"Illinois
+","148,099",+0.45%
+Bellevue,"122,363",177,"Washington
+","147,599",+20.62%
+Rockford,"152,871",178,"Illinois
+","146,526",−4.15%
+Savannah,"136,286",179,"Georgia
+","145,862",+7.03%
+Paterson,"146,199",180,"New Jersey
+","145,627",−0.39%
+Torrance,"145,438",181,"California
+","145,182",−0.18%
+Bridgeport,"144,229",182,Connecticut,"144,900",+0.47%
+McAllen,"129,877",183,"Texas
+","143,433",+10.44%
+Mesquite,"139,824",184,"Texas
+","142,816",+2.14%
+Syracuse,"145,170",185,"New York
+","142,749",−1.67%
+Midland,"111,147",186,"Texas
+","142,344",+28.07%
+Pasadena,"137,122",187,"California
+","141,371",+3.10%
+Murfreesboro,"108,755",188,"Tennessee
+","141,344",+29.97%
+Miramar,"122,041",189,"Florida
+","140,823",+15.39%
+Dayton,"141,527",190,"Ohio
+","140,640",−0.63%
+Fullerton,"135,161",191,"California
+","139,640",+3.31%
+Olathe,"125,872",192,"Kansas
+","139,605",+10.91%
+Orange,"136,416",193,"California
+","139,484",+2.25%
+Thornton,"118,772",194,"Colorado
+","139,436",+17.40%
+Roseville,"118,788",195,"California
+","139,117",+17.11%
+Denton,"113,383",196,"Texas
+","138,541",+22.19%
+Waco,"124,805",197,"Texas
+","138,183",+10.72%
+Surprise,"117,517",198,"Arizona
+","138,161",+17.57%
+Carrollton,"119,097",199,"Texas
+","136,879",+14.93%
+West Valley City,"129,480",200,"Utah
+","136,401",+5.35%
+Charleston,"120,083",201,South Carolina,"136,208",+13.43%
+Warren,"134,056",202,"Michigan
+","134,587",+0.40%
+Hampton,"137,436",203,"Virginia
+","134,313",−2.27%
+Gainesville,"124,354",204,"Florida
+","133,857",+7.64%
+Visalia,"124,442",205,"California
+","133,800",+7.52%
+Coral Springs,"121,096",206,"Florida
+","133,507",+10.25%
+Columbia,"129,272",207,"South Carolina
+","133,451",+3.23%
+Cedar Rapids,"126,326",208,"Iowa
+","133,174",+5.42%
+Sterling Heights,"129,699",209,"Michigan
+","132,964",+2.52%
+New Haven,"129,779",210,"Connecticut
+","130,418",+0.49%
+Stamford,"122,643",211,"Connecticut
+","129,775",+5.82%
+Concord,"122,067",212,"California
+","129,688",+6.24%
+Kent,"92,411",213,"Washington
+","129,618",+40.26%
+Santa Clara,"116,468",214,"California
+","129,488",+11.18%
+Elizabeth,"124,969",215,"New Jersey
+","128,885",+3.13%
+Round Rock,"99,887",216,"Texas
+","128,739",+28.88%
+Thousand Oaks,"126,683",217,"California
+","127,690",+0.79%
+Lafayette,"120,623",218,"Louisiana
+","126,143",+4.58%
+Athens,"115,452",219,"Georgia
+","125,964",+9.11%
+Topeka,"127,473",220,"Kansas
+","125,904",−1.23%
+Simi Valley,"124,237",221,"California
+","125,851",+1.30%
+Fargo,"105,549",222,North Dakota,"124,844",+18.28%
+Norman,"110,925",223,"Oklahoma
+","123,471",+11.31%
+Columbia,"108,500",224,"Missouri
+","123,180",+13.53%
+Abilene,"117,063",225,"Texas
+","122,999",+5.07%
+Wilmington,"106,476",226,"North Carolina
+","122,607",+15.15%
+Hartford,"124,775",227,"Connecticut
+","122,587",−1.75%
+Victorville,"115,903",228,"California
+","122,312",+5.53%
+Pearland,"91,252",229,"Texas
+","122,149",+33.86%
+Vallejo,"115,942",230,"California
+","121,913",+5.15%
+Ann Arbor,"113,934",231,"Michigan
+","121,890",+6.98%
+Berkeley,"112,580",232,"California
+","121,643",+8.05%
+Allentown,"118,032",233,"Pennsylvania
+","121,433",+2.88%
+Richardson,"99,223",234,"Texas
+","120,981",+21.93%
+Odessa,"99,940",235,"Texas
+","120,568",+20.64%
+Arvada,"106,433",236,"Colorado
+","120,492",+13.21%
+Cambridge,"105,162",237,"Massachusetts
+","118,977",+13.14%
+Sugar Land,"78,817",238,"Texas
+","118,600",+50.48%
+Beaumont,"118,296",239,"Texas
+","118,428",+0.11%
+Lansing,"114,297",240,"Michigan
+","118,427",+3.61%
+Evansville,"117,429",241,"Indiana
+","117,963",+0.45%
+Rochester,"106,769",242,"Minnesota
+","116,961",+9.55%
+Independence,"116,830",243,"Missouri
+","116,925",+0.08%
+Fairfield,"105,321",244,"California
+","116,884",+10.98%
+Provo,"112,488",245,"Utah
+","116,702",+3.75%
+Clearwater,"107,685",246,"Florida
+","116,478",+8.17%
+College Station,"93,857",247,"Texas
+","116,218",+23.82%
+West Jordan,"103,712",248,"Utah
+","116,046",+11.89%
+Carlsbad,"105,328",249,"California
+","115,877",+10.02%
+El Monte,"113,475",250,"California
+","115,586",+1.86%
+Murrieta,"103,466",251,"California
+","114,985",+11.13%
+Temecula,"100,097",252,"California
+","114,742",+14.63%
+Springfield,"116,250",253,"Illinois
+","114,694",−1.34%
+Palm Bay,"103,190",254,"Florida
+","114,194",+10.66%
+Costa Mesa,"109,960",255,"California
+","113,615",+3.32%
+Westminster,"106,114",256,"Colorado
+","113,479",+6.94%
+North Charleston,"97,471",257,"South Carolina
+","113,237",+16.18%
+Miami Gardens,"107,167",258,"Florida
+","113,069",+5.51%
+Manchester,"109,565",259,New Hampshire,"112,525",+2.70%
+High Point,"104,371",260,"North Carolina
+","112,316",+7.61%
+Downey,"111,772",261,"California
+","112,269",+0.44%
+Clovis,"95,631",262,"California
+","112,022",+17.14%
+Pompano Beach,"99,845",263,"Florida
+","111,954",+12.13%
+Pueblo,"106,595",264,"Colorado
+","111,750",+4.84%
+Elgin,"108,188",265,"Illinois
+","111,683",+3.23%
+Lowell,"106,519",266,"Massachusetts
+","111,670",+4.84%
+Antioch,"102,372",267,"California
+","111,535",+8.95%
+West Palm Beach,"99,919",268,"Florida
+","111,398",+11.49%
+Peoria,"115,007",269,"Illinois
+","111,388",−3.15%
+Everett,"103,019",270,"Washington
+","111,262",+8.00%
+Ventura,"106,433",271,"California
+","111,128",+4.41%
+Centennial,"100,377",272,"Colorado
+","110,831",+10.41%
+Lakeland,"97,422",273,"Florida
+","110,516",+13.44%
+Gresham,"105,594",274,"Oregon
+","110,158",+4.32%
+Richmond,"103,701",275,"California
+","110,146",+6.21%
+Billings,"104,170",276,Montana,"109,550",+5.16%
+Inglewood,"109,673",277,"California
+","109,419",−0.23%
+Broken Arrow,"98,850",278,"Oklahoma
+","109,171",+10.44%
+Sandy Springs,"93,853",279,"Georgia
+","108,797",+15.92%
+Jurupa Valley,0,280,"California
+","108,393",NA
+Hillsboro,"91,611",281,"Oregon
+","108,389",+18.31%
+Waterbury,"110,366",282,"Connecticut
+","108,093",−2.06%
+Santa Maria,"99,553",283,"California
+","107,408",+7.89%
+Boulder,"97,385",284,"Colorado
+","107,353",+10.24%
+Greeley,"92,889",285,"Colorado
+","107,348",+15.57%
+Daly City,"101,123",286,"California
+","107,008",+5.82%
+Meridian,"75,092",287,"Idaho
+","106,804",+42.23%
+Lewisville,"95,290",288,"Texas
+","106,586",+11.85%
+Davie,"91,992",289,"Florida
+","106,558",+15.83%
+West Covina,"106,098",290,"California
+","106,311",+0.20%
+League City,"83,560",291,"Texas
+","106,244",+27.15%
+Tyler,"96,900",292,"Texas
+","105,729",+9.11%
+Norwalk,"105,549",293,"California
+","105,120",−0.41%
+San Mateo,"97,207",294,"California
+","105,025",+8.04%
+Green Bay,"104,057",295,"Wisconsin
+","104,879",+0.79%
+Wichita Falls,"104,553",296,"Texas
+","104,576",+0.02%
+Sparks,"90,264",297,"Nevada
+","104,246",+15.49%
+Lakewood,"92,843",298,"New Jersey
+","104,157",+12.19%
+Burbank,"103,340",299,"California
+","103,695",+0.34%
+Rialto,"99,171",300,"California
+","103,440",+4.30%
+Allen,"84,246",301,"Texas
+","103,383",+22.72%
+El Cajon,"99,478",302,"California
+","103,241",+3.78%
+Las Cruces,"97,618",303,"New Mexico
+","102,926",+5.44%
+Renton,"90,927",304,"Washington
+","102,153",+12.35%
+Davenport,"99,685",305,"Iowa
+","102,085",+2.41%
+South Bend,"101,168",306,"Indiana
+","101,860",+0.68%
+Vista,"93,834",307,"California
+","101,224",+7.88%
+Tuscaloosa,"90,468",308,"Alabama
+","101,113",+11.77%
+Clinton,"96,796",309,"Michigan
+","100,800",+4.14%
+Edison,"99,967",310,"New Jersey
+","100,693",+0.73%
+Woodbridge,"99,585",311,"New Jersey
+","100,450",+0.87%
+San Angelo,"93,200",312,"Texas
+","100,215",+7.53%
+Kenosha,"99,218",313,"Wisconsin
+","100,164",+0.95%
+Vacaville,"92,428",314,"California
+","100,154",+8.36%

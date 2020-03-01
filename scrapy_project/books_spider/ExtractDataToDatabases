@@ -1,0 +1,118 @@
+# Extract Data To Databases
+
+## MYSQL Database Basics
+- Link to install MYSQL installer - https://dev.mysql.com/downloads/mysql/
+- - create your account with oracle and download the installer
+- - install MYSQL Shell, MYSQL server and connector/Python
+- - After installation add "C:\Program files\MySQL\MySQL Server 8.0\bin" in environment variable and navigate to this path from cmd
+- - simplepassword is the password set by you during installation
+- - Run: mysql -u root -p simplepassword
+- - Show all database: Run: show databases;
+- - Create a dabase: Run: create database databaseName;
+- - Show all databases: Run: show databaseName;
+- - Switch to database: Run: use databaseName;
+- - Create a table in database: Run: CREATE TABLE table_name_1 (
+															CourseID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+															Name VARCHAR(50) NOT NULL,
+															Semester INT NOT NULL,
+															ESPB INT NOT NULL
+														);
+- - Create a table in database: Run: CREATE TABLE table_name_2 (
+															ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+															CourseID INT NOT NULL REFERENCES courses(CourseID),
+															YearTaken INT DEFAULT NULL,
+															Period VARCHAR(20) DEFAULT NULL,
+															Grade INT NOT NULL,
+															Points FLOAT NOT NULL,
+															Final BOOLEAN NOT NULL
+														);
+- - Insert in table_name_1: Run: INSERT INTO table_name_1 VALUES (2100, "Algorithms and Data Structures", 3, 6);
+- - Insert in table_name_2: Run: INSERT INTO table_name_2 (CourseID, YearTaken, Period, Grade, Points, Final) VALUES (2100, 2018, "june", 9, 82, true);
+
+- - Show tables: Run: show tables;
+- - Show data of table_name_1: Run: select * from table_name_1;
+- - Delete table from database: Run truncate table table_name_1;
+- - Delete database: Run: drop databse databaseName;
+
+### To run mysql shell
+- Run: mysql -u root -p simplepassword
+
+### Install MYSQL in Python where python is installed
+- pip install mysql-python
+
+### Writing Data to MYSQL Database
+'''
+import os
+import csv
+import glob
+import MySQLdb
+
+
+def close(self, response):
+	csv_file = max(glob.iglob('*.csv'), key=os.path.getctime)
+	mydb = MySQLdb.connect(host='localhost', user='root', passwd='simplepassword', db=''datanaseName)
+	cursor = mydb.cursor()
+	csv_data = csv.reader(file(csv_file))
+	row_count = 0
+	for row in csv_data:
+		if row_count!=0:
+			cursor.execute('INSERT IGNORE INTO table_name_1(header1Name, header2Name, header3Name) VALUES(%s, %s, %s)', row)
+		row_count += 1
+	mydb.commit()
+	cursor.close()
+
+'''
+
+
+## MONGO Database Basics
+
+-Link to install mondo database community edition - https://docs.mongodb.com/manual/installation/
+- - add your <mongodb installation dir>/bin to the PATH environment variable allows you to type mongo instead of having to go to the bin directory 
+- - TO start mongo shell: Run: mongo 
+- - Show databases: Run: show dbs
+- - Create and switch to database: Run use databaseName
+- - Check in whihc database we are currently: Run: db
+- - Create a user: RUn: db.createUser({user: "userName", pwd: "password", roles:["readwrite", "dbadmin"]});
+- - Create collection or table: Run: db.createCollection('collectionName')
+- - Show collection: Run: show collections
+- - To insert some data: Run: db.collectionName.insert([{name: "name1", age: 29, grade: "A"},{name: "name2", age: 30, grade: "A+"}]);
+- - Show the data in collection: Run: db.collectionName.find();
+- - Show data in prety format: Run: db.collectionName.find().pretty();
+- - Remove the colection: Run: db.collctionName.remove({});
+- - remove database: Run: db,dropDatabase()
+
+### Install the pymongo
+- pip install pymongo
+
+### Wriet Data to MONGO database
+
+'''
+# Go to settings.py file and add below settings
+
+ITEM_PIPELINES = { 'spider_name.pipelines.MongoDBPipeline':300}
+MONGODB_SERVER = 'localhost'
+MONGODB_PORT = 27017
+MONGODB_DB = 'database_name'
+MONGODB_COLLECTION = 'collectionName'
+
+# Go to pipelines.py file add below code
+
+from pymongo import MongoClient
+from scrapy.conf import settings
+
+class MongoDBPipeline(object):
+	
+	def__init__(self):
+		connection = MongoClient(settings['MONGODB_SERVER'], settings['MONGODB_PORT'])
+		db = connection[settings['MONGODB_DB']]
+		self.collection = db[settings['MONGODB_COLLECTION']]
+		
+	def process_item(self, item, spider):
+		# below line will insert teh data in database
+		self.collection.insert(dict(item))
+		return item
+		
+# Go to cmd and run the spider, you will get the data in mongo database	and you can check by going to mongo shell	
+
+		
+'''
